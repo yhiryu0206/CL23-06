@@ -1,12 +1,12 @@
 /*------------------------------
-* シーン[game.cpp]
+* シーン[scene.cpp]
 *
 * 制作者：yhiryu		日付：2025/9/4
 ------------------------------*/
 #include <iostream>
 
 #pragma comment(lib, "winmm.lib")
-#include "game.h"
+#include "scene.h"
 #include "game.h"
 #include "time.h"
 

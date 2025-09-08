@@ -50,7 +50,6 @@ void MAIN::Initialize()
 void MAIN::Updata()
 {
 	g_Time.Updata();
-
 }
 
 void MAIN::Draw()

@@ -1,14 +1,14 @@
 /*------------------------------
-* ゲーム[game.h]
+* プレイヤー[player.h]
 *
 * 制作者：yhiryu		日付：2025/9/4
 ------------------------------*/
-#ifndef GAME_H
-#define GAME_H
+#ifndef PLAYER_H
+#define PLAYER_H
 
-#include "scene.h"
+#include "character.h"
 
-class GAME :public SCENE
+class PLAYER : public CHARACTER
 {
 public:
 
@@ -17,6 +17,9 @@ public:
 	void Draw();
 	void Finalize();
 
+	PLAYER* GetPlayer();
 };
 
-#endif // !GAME_H
+
+
+#endif // !PLAYER_H
