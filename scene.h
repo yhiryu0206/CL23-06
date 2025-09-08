@@ -1,16 +1,16 @@
 /*------------------------------
-* メイン[main.h]
+* シーン[scene.h]
 *
 * 制作者：yhiryu		日付：2025/9/4
 ------------------------------*/
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef SCENE_H
+#define SCENE_H
 
 #include <iostream>
 #include <Windows.h>
 #include <mmsystem.h>
 
-class MAIN
+class SCENE
 {
 public:
 
@@ -19,8 +19,14 @@ public:
 	void Draw();
 	void Finalize();
 
-	void WindowConsoleInitialize();
-
 };
 
-#endif // !MAIN_H
+enum GAMESTATE
+{
+	STATE_TITLE=0,
+	STATE_GAME,
+	STATE_BATTLE,
+	STATE_RESULT,
+
+};
+#endif // !SCENE_H

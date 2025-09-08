@@ -1,17 +1,16 @@
 /*------------------------------
-* シーン[game.h]
+* バトル[battle.h]
 *
 * 制作者：yhiryu		日付：2025/9/4
 ------------------------------*/
-#ifndef GAME_H
-#define GAME_H
-
+#ifndef BATTLE_H
+#define BATTLE_H
 #include "scene.h"
 
-class GAME :public SCENE
+
+class BATTLE : public SCENE
 {
 public:
-
 	void Initialize();
 	void Updata();
 	void Draw();
@@ -19,4 +18,5 @@ public:
 
 };
 
-#endif // !GAME_H
+
+#endif // !BATTLE_H
